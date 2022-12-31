@@ -22,7 +22,7 @@ int main(int argc, char **argv) {
     auto info = date.get_info();
     std::vector<std::jthread> thread_pool;
 
-    std::string music_path{"../resource/ringtone.mp3"};
+    std::string music_path{"/home/void/lab/mtn/resource/ringtone.mp3"};
     notify notification;
 
 
